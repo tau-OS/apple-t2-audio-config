@@ -3,6 +3,7 @@ Name:           apple-t2-audio-config
 Version:        1
 Release:        1%{?dist}.1
 Summary:        Audio configuration files for Apple T2 Macs
+License:        MIT
 
 Source0:        91-pulseaudio-custom.rules
 Source1:        apple-t2.conf

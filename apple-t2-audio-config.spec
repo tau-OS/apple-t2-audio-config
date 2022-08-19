@@ -9,7 +9,9 @@ Source0:        91-pulseaudio-custom.rules
 Source1:        apple-t2.conf
 Source2:        AppleT2.conf
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-BuildArch:	noarch
+BuildArch:	    noarch
+
+Requires:     apple-bce-kmod  
 
 %description
 Audio configuration files for Apple T2 Macs using the apple_bce driver
